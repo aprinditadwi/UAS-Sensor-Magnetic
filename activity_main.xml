@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/mag_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/design_default_color_primary"
+        android:padding="5dp"
+        android:text="@string/sensor_magnetic"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_heading"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_heading"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/aprindita_dwi_monica"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:id="@+id/article_subheading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_heading"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/_19_01_53_0135"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/todo"
+                android:padding="10dp"
+                android:src="@drawable/foto" />
+
+            <TextView
+                android:id="@+id/mag_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_heading"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/magnetometer_raw_data_t"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:id="@+id/mag_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_heading"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/x"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:id="@+id/mag_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_heading"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/y"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:id="@+id/mag_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_heading"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/z"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <Button
+                android:id="@id/mag_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="100dp"
+                android:text="@string/reset"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
